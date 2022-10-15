@@ -1,0 +1,190 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  }
+  
+.first_container {
+  position: relative;
+  background-image: url("floral_background.jpg");
+  opacity: 0.9;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first_text {
+  position: absolute;
+  margin-top: -2vh;
+  color: #B25068;
+  font-size: 10vh;
+  font-family: 'Dancing Script', cursive;
+}
+
+.second_text {
+  position: absolute;
+  margin-top: 17vh;
+  padding-top: 2em;
+  color: #E7AB79;
+  font-size: 6.5vh;
+  font-family: 'Dancing Script', cursive;
+}
+
+.second_container {
+  position: relative;
+  height: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hello {
+  position: absolute;
+  margin-top: -22vw;
+  color: #B25068;
+  font-size: 3.8em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.me {
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -5vw;
+  width: 20%;
+}
+
+.aboutme {
+  width: 95%;
+  position: absolute;
+  color: #001A27;
+  font-size: 1.7em;
+  font-family: 'ABeeZee', sans-serif;
+  margin-top: 45vh;
+  padding-top: 2em;
+  padding-bottom: 2.5em;
+}
+
+.dot {
+  height: 3vh;
+  width: 3vh;
+  background-color: #BBB;
+  border-radius: 50%;
+  margin-top: 68vh;
+  margin-bottom: 5vh;
+  float: left;
+  margin-right: 0.2vh;
+  margin-left: 2vh;
+  padding-top: 0.75em;
+}
+
+#dot_above{
+  margin-top: -15vh;
+}
+
+.third_containter {
+  background-color: #F9DEC8;
+  height: 72%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+hr {
+  position: absolute;
+  width: 100%;
+  margin-top: -68vh;
+  height: 0.65vh;
+  background-color: #B25068;
+}
+
+#hr_under{
+  margin-top: -28vh;
+}
+
+.myskills {
+  position: absolute;
+  margin-top: -50vh;
+  color: #B25068;
+  font-size: 3.8em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.column {
+  margin-top: 10vh;
+  flex: 50%;
+  padding: 1vh;
+}
+
+.skills_name{
+  color: #B25068;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  margin-top: -5vh;
+  padding-top: 2.5vh;
+}
+
+.list_items{
+  width: 100%;
+  color: #001A27;
+  font-size: 1.1em;
+  font-family: 'ABeeZee', sans-serif;
+  padding-top: 3vh;
+  margin-top: -7vh;
+}
+
+.fourth_container{
+  height: 30%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getintouch{
+  position: absolute;
+  margin-top: -0.5vh;
+  color: #B25068;
+  font-size: 3.8em;
+  font-family: 'Dancing Script', cursive;
+}
+
+button {
+  display: flex;
+  align-self: center;
+  background-color: #001A27; 
+  color: #B25068;
+  padding: 1.3vh;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 1vh;
+  margin-left: -21vh;
+  margin-top: 15vh;
+}
+
+p, a{
+  color: #E7AB79;
+  text-decoration: none;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.fifth_container{
+  height: 10%;
+  background-color: #001A27;
+  position: relative;
+  text-align: center;
+}
